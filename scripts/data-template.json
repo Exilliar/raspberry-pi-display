@@ -1,0 +1,502 @@
+{
+  "displayed": false,
+  "config": {
+    "diary": { "datetimeFormat": "%a %b %d %Y %H:%M:%S" },
+    "tfl": { "lines": ["northern", "piccadilly", "circle"] },
+    "weather": {
+      "datetimeFormat": "%Y-%m-%dT%H:%SZ",
+      "locations": {
+        "home": { "latitude": 0, "longitude": 0 },
+        "work": { "latitude": 0, "longitude": 0 }
+      },
+      "selectedLocation": "home",
+      "availableTimesteps": ["hourly", "three-hourly", "daily"],
+      "selectedTimestep": 0
+    }
+  },
+  "output": {
+    "diary": { "title": "# Day 1741, Sunday, 26/01/2025" },
+    "tfl": {
+      "northern": {
+        "statuses": [
+          {
+            "statusSeverity": 10,
+            "statusSeverityDescription": "Good Service",
+            "reason": null
+          }
+        ]
+      },
+      "piccadilly": {
+        "statuses": [
+          {
+            "statusSeverity": 5,
+            "statusSeverityDescription": "Part Closure",
+            "reason": "PICCADILLY LINE: From 03:30 Saturday 25 and all day Sunday 26 January , no service between King's Cross St. Pancras and Cockfosters. Replacement bus service PL5 operates between Finchley Central and Cockfosters via Arnos Grove, Southgate and Oakwood. PL6 operates between Finsbury Park and Arnos Grove via Manor House, Turnpike Lane, Wood Green and Bounds Green. Overnight buses continue to/from Southgate, Oakwood and Cockfosters, at other times, please use service PL5 for these stations."
+          },
+          {
+            "statusSeverity": 5,
+            "statusSeverityDescription": "Part Closure",
+            "reason": "PICCADILLY LINE: No service between Rayners Lane and Uxbridge due a shortage of Piccadilly line trains while we fix damage caused by leaf fall. Please use the Metropolitan line to complete your journey."
+          }
+        ]
+      },
+      "circle": {
+        "statuses": [
+          {
+            "statusSeverity": 10,
+            "statusSeverityDescription": "Good Service",
+            "reason": null
+          }
+        ]
+      }
+    },
+    "weather": { "locationName": "", "runTime": "", "timeSeries": [] }
+  },
+  "weather": {
+    "locationName": "Takoradi",
+    "runTime": "2025-01-26T20:00Z",
+    "timeSeries": [
+      {
+        "time": "2025-01-26T20:00Z",
+        "temp": 27.48,
+        "feelsLikeTemp": 30.76,
+        "windSpeed": 1.79,
+        "windDir": 274,
+        "snowAmount": 0,
+        "precipProb": 10
+      },
+      {
+        "time": "2025-01-26T21:00Z",
+        "temp": 27.04,
+        "feelsLikeTemp": 30.56,
+        "windSpeed": 1.54,
+        "windDir": 287,
+        "snowAmount": 0,
+        "precipProb": 10
+      },
+      {
+        "time": "2025-01-26T22:00Z",
+        "temp": 26.6,
+        "feelsLikeTemp": 29.96,
+        "windSpeed": 1.74,
+        "windDir": 273,
+        "snowAmount": 0,
+        "precipProb": 10
+      },
+      {
+        "time": "2025-01-26T23:00Z",
+        "temp": 26.19,
+        "feelsLikeTemp": 29.41,
+        "windSpeed": 1.92,
+        "windDir": 262,
+        "snowAmount": 0,
+        "precipProb": 3
+      },
+      {
+        "time": "2025-01-27T00:00Z",
+        "temp": 25.8,
+        "feelsLikeTemp": 28.9,
+        "windSpeed": 2.08,
+        "windDir": 253,
+        "snowAmount": 0,
+        "precipProb": 3
+      },
+      {
+        "time": "2025-01-27T01:00Z",
+        "temp": 25.58,
+        "feelsLikeTemp": 28.73,
+        "windSpeed": 1.96,
+        "windDir": 254,
+        "snowAmount": 0,
+        "precipProb": 3
+      },
+      {
+        "time": "2025-01-27T02:00Z",
+        "temp": 25.36,
+        "feelsLikeTemp": 28.57,
+        "windSpeed": 1.85,
+        "windDir": 255,
+        "snowAmount": 0,
+        "precipProb": 1
+      },
+      {
+        "time": "2025-01-27T03:00Z",
+        "temp": 25.15,
+        "feelsLikeTemp": 28.4,
+        "windSpeed": 1.74,
+        "windDir": 256,
+        "snowAmount": 0,
+        "precipProb": 1
+      },
+      {
+        "time": "2025-01-27T04:00Z",
+        "temp": 24.96,
+        "feelsLikeTemp": 28.26,
+        "windSpeed": 1.61,
+        "windDir": 273,
+        "snowAmount": 0,
+        "precipProb": 1
+      },
+      {
+        "time": "2025-01-27T05:00Z",
+        "temp": 24.79,
+        "feelsLikeTemp": 28.12,
+        "windSpeed": 1.51,
+        "windDir": 287,
+        "snowAmount": 0,
+        "precipProb": 2
+      },
+      {
+        "time": "2025-01-27T06:00Z",
+        "temp": 24.6,
+        "feelsLikeTemp": 27.98,
+        "windSpeed": 1.4,
+        "windDir": 303,
+        "snowAmount": 0,
+        "precipProb": 2
+      },
+      {
+        "time": "2025-01-27T07:00Z",
+        "temp": 25.71,
+        "feelsLikeTemp": 29.21,
+        "windSpeed": 1.44,
+        "windDir": 288,
+        "snowAmount": 0,
+        "precipProb": 2
+      },
+      {
+        "time": "2025-01-27T08:00Z",
+        "temp": 26.83,
+        "feelsLikeTemp": 30.45,
+        "windSpeed": 1.49,
+        "windDir": 270,
+        "snowAmount": 0,
+        "precipProb": 9
+      },
+      {
+        "time": "2025-01-27T09:00Z",
+        "temp": 27.94,
+        "feelsLikeTemp": 31.67,
+        "windSpeed": 1.53,
+        "windDir": 257,
+        "snowAmount": 0,
+        "precipProb": 9
+      },
+      {
+        "time": "2025-01-27T10:00Z",
+        "temp": 28.73,
+        "feelsLikeTemp": 32.05,
+        "windSpeed": 1.81,
+        "windDir": 227,
+        "snowAmount": 0,
+        "precipProb": 9
+      },
+      {
+        "time": "2025-01-27T11:00Z",
+        "temp": 29.51,
+        "feelsLikeTemp": 32.43,
+        "windSpeed": 2.08,
+        "windDir": 187,
+        "snowAmount": 0,
+        "precipProb": 38
+      },
+      {
+        "time": "2025-01-27T12:00Z",
+        "temp": 30.3,
+        "feelsLikeTemp": 32.8,
+        "windSpeed": 2.35,
+        "windDir": 163,
+        "snowAmount": 0,
+        "precipProb": 38
+      },
+      {
+        "time": "2025-01-27T13:00Z",
+        "temp": 30.21,
+        "feelsLikeTemp": 32.42,
+        "windSpeed": 2.71,
+        "windDir": 168,
+        "snowAmount": 0,
+        "precipProb": 38
+      },
+      {
+        "time": "2025-01-27T14:00Z",
+        "temp": 30.11,
+        "feelsLikeTemp": 32.02,
+        "windSpeed": 3.09,
+        "windDir": 171,
+        "snowAmount": 0,
+        "precipProb": 40
+      },
+      {
+        "time": "2025-01-27T15:00Z",
+        "temp": 30.01,
+        "feelsLikeTemp": 31.62,
+        "windSpeed": 3.48,
+        "windDir": 175,
+        "snowAmount": 0,
+        "precipProb": 40
+      },
+      {
+        "time": "2025-01-27T16:00Z",
+        "temp": 29.44,
+        "feelsLikeTemp": 31.24,
+        "windSpeed": 3.31,
+        "windDir": 180,
+        "snowAmount": 0,
+        "precipProb": 40
+      },
+      {
+        "time": "2025-01-27T17:00Z",
+        "temp": 28.87,
+        "feelsLikeTemp": 30.87,
+        "windSpeed": 3.15,
+        "windDir": 186,
+        "snowAmount": 0,
+        "precipProb": 13
+      },
+      {
+        "time": "2025-01-27T18:00Z",
+        "temp": 28.3,
+        "feelsLikeTemp": 30.5,
+        "windSpeed": 2.99,
+        "windDir": 192,
+        "snowAmount": 0,
+        "precipProb": 13
+      },
+      {
+        "time": "2025-01-27T19:00Z",
+        "temp": 27.9,
+        "feelsLikeTemp": 30.27,
+        "windSpeed": 2.88,
+        "windDir": 197,
+        "snowAmount": 0,
+        "precipProb": 13
+      },
+      {
+        "time": "2025-01-27T20:00Z",
+        "temp": 27.49,
+        "feelsLikeTemp": 30.05,
+        "windSpeed": 2.77,
+        "windDir": 202,
+        "snowAmount": 0,
+        "precipProb": 1
+      },
+      {
+        "time": "2025-01-27T21:00Z",
+        "temp": 27.09,
+        "feelsLikeTemp": 29.82,
+        "windSpeed": 2.65,
+        "windDir": 207,
+        "snowAmount": 0,
+        "precipProb": 1
+      },
+      {
+        "time": "2025-01-27T22:00Z",
+        "temp": 26.83,
+        "feelsLikeTemp": 29.72,
+        "windSpeed": 2.46,
+        "windDir": 212,
+        "snowAmount": 0,
+        "precipProb": 1
+      },
+      {
+        "time": "2025-01-27T23:00Z",
+        "temp": 26.56,
+        "feelsLikeTemp": 29.62,
+        "windSpeed": 2.26,
+        "windDir": 218,
+        "snowAmount": 0,
+        "precipProb": 0
+      },
+      {
+        "time": "2025-01-28T00:00Z",
+        "temp": 26.31,
+        "feelsLikeTemp": 29.52,
+        "windSpeed": 2.07,
+        "windDir": 224,
+        "snowAmount": 0,
+        "precipProb": 0
+      },
+      {
+        "time": "2025-01-28T01:00Z",
+        "temp": 26.0,
+        "feelsLikeTemp": 29.31,
+        "windSpeed": 1.86,
+        "windDir": 236,
+        "snowAmount": 0,
+        "precipProb": 0
+      },
+      {
+        "time": "2025-01-28T02:00Z",
+        "temp": 25.71,
+        "feelsLikeTemp": 29.11,
+        "windSpeed": 1.65,
+        "windDir": 250,
+        "snowAmount": 0,
+        "precipProb": 2
+      },
+      {
+        "time": "2025-01-28T03:00Z",
+        "temp": 25.41,
+        "feelsLikeTemp": 28.9,
+        "windSpeed": 1.43,
+        "windDir": 262,
+        "snowAmount": 0,
+        "precipProb": 2
+      },
+      {
+        "time": "2025-01-28T04:00Z",
+        "temp": 25.22,
+        "feelsLikeTemp": 28.72,
+        "windSpeed": 1.37,
+        "windDir": 273,
+        "snowAmount": 0,
+        "precipProb": 2
+      },
+      {
+        "time": "2025-01-28T05:00Z",
+        "temp": 25.03,
+        "feelsLikeTemp": 28.55,
+        "windSpeed": 1.31,
+        "windDir": 284,
+        "snowAmount": 0,
+        "precipProb": 5
+      },
+      {
+        "time": "2025-01-28T06:00Z",
+        "temp": 24.84,
+        "feelsLikeTemp": 28.37,
+        "windSpeed": 1.25,
+        "windDir": 296,
+        "snowAmount": 0,
+        "precipProb": 5
+      },
+      {
+        "time": "2025-01-28T07:00Z",
+        "temp": 26.0,
+        "feelsLikeTemp": 29.61,
+        "windSpeed": 1.3,
+        "windDir": 287,
+        "snowAmount": 0,
+        "precipProb": 5
+      },
+      {
+        "time": "2025-01-28T08:00Z",
+        "temp": 27.16,
+        "feelsLikeTemp": 30.86,
+        "windSpeed": 1.34,
+        "windDir": 282,
+        "snowAmount": 0,
+        "precipProb": 6
+      },
+      {
+        "time": "2025-01-28T09:00Z",
+        "temp": 28.32,
+        "feelsLikeTemp": 32.1,
+        "windSpeed": 1.4,
+        "windDir": 268,
+        "snowAmount": 0,
+        "precipProb": 6
+      },
+      {
+        "time": "2025-01-28T10:00Z",
+        "temp": 29.29,
+        "feelsLikeTemp": 32.68,
+        "windSpeed": 1.46,
+        "windDir": 241,
+        "snowAmount": 0,
+        "precipProb": 6
+      },
+      {
+        "time": "2025-01-28T11:00Z",
+        "temp": 30.26,
+        "feelsLikeTemp": 33.27,
+        "windSpeed": 1.52,
+        "windDir": 207,
+        "snowAmount": 0,
+        "precipProb": 35
+      },
+      {
+        "time": "2025-01-28T12:00Z",
+        "temp": 31.22,
+        "feelsLikeTemp": 33.85,
+        "windSpeed": 1.58,
+        "windDir": 190,
+        "snowAmount": 0,
+        "precipProb": 35
+      },
+      {
+        "time": "2025-01-28T13:00Z",
+        "temp": 31.08,
+        "feelsLikeTemp": 33.33,
+        "windSpeed": 2.07,
+        "windDir": 182,
+        "snowAmount": 0,
+        "precipProb": 35
+      },
+      {
+        "time": "2025-01-28T14:00Z",
+        "temp": 30.95,
+        "feelsLikeTemp": 32.8,
+        "windSpeed": 2.56,
+        "windDir": 177,
+        "snowAmount": 0,
+        "precipProb": 38
+      },
+      {
+        "time": "2025-01-28T15:00Z",
+        "temp": 30.8,
+        "feelsLikeTemp": 32.27,
+        "windSpeed": 3.05,
+        "windDir": 170,
+        "snowAmount": 0,
+        "precipProb": 38
+      },
+      {
+        "time": "2025-01-28T16:00Z",
+        "temp": 30.2,
+        "feelsLikeTemp": 31.78,
+        "windSpeed": 3.13,
+        "windDir": 177,
+        "snowAmount": 0,
+        "precipProb": 38
+      },
+      {
+        "time": "2025-01-28T17:00Z",
+        "temp": 29.61,
+        "feelsLikeTemp": 31.29,
+        "windSpeed": 3.2,
+        "windDir": 185,
+        "snowAmount": 0,
+        "precipProb": 29
+      },
+      {
+        "time": "2025-01-28T18:00Z",
+        "temp": 29.01,
+        "feelsLikeTemp": 30.81,
+        "windSpeed": 3.28,
+        "windDir": 192,
+        "snowAmount": 0,
+        "precipProb": 29
+      },
+      {
+        "time": "2025-01-28T19:00Z",
+        "temp": 28.49,
+        "feelsLikeTemp": 30.6,
+        "windSpeed": 3.06,
+        "windDir": 198,
+        "snowAmount": 0,
+        "precipProb": 29
+      },
+      {
+        "time": "2025-01-28T20:00Z",
+        "temp": 27.98,
+        "feelsLikeTemp": 30.41,
+        "windSpeed": 2.84,
+        "windDir": 204,
+        "snowAmount": 0,
+        "precipProb": 0
+      }
+    ]
+  }
+}
