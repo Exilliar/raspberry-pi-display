@@ -22,7 +22,7 @@ There is a `.env-template` file that needs to be filled into a `.env` file. The 
 
 ### Diary API
 
-This API is my own personal one, therefore it cannot be accessed by anyone but me. Any reference to the diary API (including the script) can be deleted.
+This API is my own personal one, therefore it cannot be accessed by anyone but me. Any reference to the diary API (including the `diary-title.py` script and any env variables that start with `DIARY_`) can be deleted.
 
 ## Scripts
 
