@@ -14,7 +14,7 @@ All required packages are in the `requirements.txt` file.
 
 This file contains both the config values for the scripts and is also the location that all of the scripts will write their data to.
 
-This file needs to contain exact long-lat information, so only a template (`data-template.json`) is provided in the repo. When running these scripts a new `data.json` file should be created, with the `config` values updated to match.
+This file needs to contain exact long-lat information, so only a template (`data-template.json`) is provided in the repo. When running these scripts a new `data.json` file should be manually created (the scripts will throw an error if this file has not already been created), with the `config` values updated to match.
 
 ### Env file
 
