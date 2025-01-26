@@ -92,9 +92,9 @@ A step count will be added to the display. This will likely be the most difficul
 
 ## Script timings
 
-- Every hour at :50 - `weather-data.py`
+- Every hour at :05 - `weather-data.py`
 - Every half hour at :55 and :25 - `tfl-data.py`
 - Every day at 6:00am - `diary-title.py`
-- Every half hour at :05 and :35 - `update-screen.py`
+- Every half hour at :10 and :40 - `update-screen.py`
 
 Timings need to be staggered as all scripts access the `data.json` file, therefore if any ran at the same time this could cause locking issues. V2 of the project with a server should hopefully be able to solve this issue by giving the server more control over when each script runs.
