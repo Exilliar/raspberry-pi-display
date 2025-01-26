@@ -25,14 +25,13 @@ statusRes = conn.getresponse()
 statuses = json.loads(statusRes.read())
 
 for status in statuses:
-    for line in lineData:
-        if line == status["id"]:
-            for s in status["lineStatuses"]:
-                lineData[line]["statuses"].append({
-                    "statusSeverity": s["statusSeverity"],
-                    "statusSeverityDescription": s["statusSeverityDescription"],
-                    "reason": s["reason"] if "reason" in s else None
-                })
+    line = status["id"]
+    for s in status["lineStatuses"]:
+        lineData[line]["statuses"].append({
+            "statusSeverity": s["statusSeverity"],
+            "statusSeverityDescription": s["statusSeverityDescription"],
+            "reason": s["reason"] if "reason" in s else None
+        })
 
 dataJson["displayed"] = False
 dataJson["output"]["tfl"] = lineData
