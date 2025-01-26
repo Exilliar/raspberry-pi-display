@@ -92,6 +92,8 @@ A step count will be added to the display. This will likely be the most difficul
 
 ## Script timings
 
+![Script timings](./readme-images/script%20timings.png)
+
 - Every hour at :05 - `weather-data.py`
 - Every half hour at :55 and :25 - `tfl-data.py`
 - Every day at 6:00am - `diary-title.py`
